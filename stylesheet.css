@@ -10,8 +10,8 @@
 /* color */
 :root{
   --twitter-blue: rgb(29, 155, 240);
-  --border-grey: #00000023;
-  --thread-grey: #a0a0a046;
+  --border-grey: #c9c9c92d;
+  --thread-grey: #a0a0a06e;
   --blue-hover-bg: #1da0f215;
   --heading-color: #000000c9;
   --retweet: #19cf86;
@@ -397,7 +397,7 @@ main .second-container .icons-and-btn button:hover{
 
 /* fourth-container */
 .fourth-container{
-  padding: .8em 1.5em;
+  padding: .8em 1em;
   border-bottom: 1px solid var(--border-grey);
 }
 
@@ -409,11 +409,11 @@ main .second-container .icons-and-btn button:hover{
 }
 
 .fourth-container .top-container .user-dp-content{
-  margin-right: 1em;
+  margin-right: .5em;
 }
 
 .fourth-container .top-container .user-dp-content .user-dp{
-  width: 55px;
+  width: 50px;
 }
 
 .fourth-container .top-container .user-dp-content .user-dp img{
@@ -477,8 +477,12 @@ main .second-container .icons-and-btn button:hover{
   background: var(--blue-hover-bg);
 }
 
+.fourth-container .top-container .content .content-text p{
+  font-size: .9rem;
+}
+
 .fourth-container .top-container .content .content-text p img{
-  width: 1rem;
+  width: .8rem;
 }
 
 .fourth-container .top-container .content .content-image{
@@ -636,7 +640,7 @@ main .second-container .icons-and-btn button:hover{
 
 /* fifth-container */
 .fifth-container{
-  padding: .8em 1.5em;
+  padding: .8em 1em;
   border-bottom: 1px solid var(--border-grey);
 }
 
@@ -648,11 +652,11 @@ main .second-container .icons-and-btn button:hover{
 }
 
 .fifth-container .top-container .user-dp-content{
-  margin-right: 1em;
+  margin-right: .5em;
 }
 
 .fifth-container .top-container .user-dp-content .user-dp{
-  width: 55px;
+  width: 50px;
 }
 
 .fifth-container .top-container .user-dp-content .user-dp img{
@@ -719,6 +723,10 @@ main .second-container .icons-and-btn button:hover{
 
 .fifth-container .top-container .content .header .heading a .ellipsis:hover{
   background: var(--blue-hover-bg);
+}
+
+.fifth-container .top-container .content .content-text p{
+  font-size: .9rem;
 }
 
 .fifth-container .top-container .content .content-text p img{
@@ -878,7 +886,7 @@ main .second-container .icons-and-btn button:hover{
 
 /* sixth-container */
 .sixth-container{
-  padding: .8em 1.5em;
+  padding: .8em 1em;
   border-bottom: 1px solid var(--border-grey);
 }
 
@@ -890,11 +898,11 @@ main .second-container .icons-and-btn button:hover{
 }
 
 .sixth-container .top-container .user-dp-content{
-  margin-right: 1em;
+  margin-right: .5em;
 }
 
 .sixth-container .top-container .user-dp-content .user-dp{
-  width: 55px;
+  width: 50px;
 }
 
 .sixth-container .top-container .user-dp-content .user-dp img{
@@ -963,8 +971,12 @@ main .second-container .icons-and-btn button:hover{
   background: var(--blue-hover-bg);
 }
 
+.sixth-container .top-container .content .content-text p{
+  font-size: .9rem;
+}
+
 .sixth-container .top-container .content .content-text p img{
-  width: 1rem;
+  width: .8rem;
 }
 
 .sixth-container .top-container .content .content-text p span{
@@ -1002,6 +1014,11 @@ main .second-container .icons-and-btn button:hover{
   background: #000;
   border-radius: 50px;
   font-weight: 600;
+}
+
+.sixth-container .top-container .content .quoted-text
+p{
+  font-size: .9rem;
 }
 
 
@@ -1935,7 +1952,7 @@ aside .trend-table ul li:last-of-type:hover{
 }
 
 /* terms of service */
-.terms-of-service{
+.terms-of-service{ 
   margin-top: 1em;
   padding: 0 1.5em;
 }
