@@ -456,7 +456,7 @@ main .second-container .icons-and-btn button:hover{
 
 .fourth-container .top-container .content .header .heading small>a{
   color: #000000c9;
-  margin: 0 1em;
+  margin: 0 .8em;
 }
 
 .fourth-container .top-container .content .header .heading small:nth-of-type(2){
@@ -694,7 +694,7 @@ main .second-container .icons-and-btn button:hover{
 }
 
 .fifth-container .top-container .content .header .heading h5 a span img{
-  width: .9rem;
+  width: .8rem;
 }
 
 
@@ -704,7 +704,7 @@ main .second-container .icons-and-btn button:hover{
 
 .fifth-container .top-container .content .header .heading small>a{
   color: #000000c9;
-  margin: 0 1em;
+  margin: 0 .8em;
 }
 
 .fifth-container .top-container .content .header .heading small:nth-of-type(2){
@@ -1176,7 +1176,7 @@ p{
 
 /* seventh-container */
 .seventh-container{
-  padding: .8em 1.5em;
+  padding: .8em 1em;
   border-bottom: 1px solid var(--border-grey);
 }
 
@@ -1188,11 +1188,11 @@ p{
 }
 
 .seventh-container .top-container .user-dp-content{
-  margin-right: 1em;
+  margin-right: .5em;
 }
 
 .seventh-container .top-container .user-dp-content .user-dp{
-  width: 55px;
+  width: 50px;
 }
 
 .seventh-container .top-container .user-dp-content .user-dp img{
@@ -1231,7 +1231,7 @@ p{
 }
 
 .seventh-container .top-container .content .header .heading h5 a span img{
-  width: .9rem;
+  width: .8rem;
 }
 
 
@@ -1262,8 +1262,12 @@ p{
   background: var(--blue-hover-bg);
 }
 
+.seventh-container .top-container .content .content-text p{
+  font-size: .9rem;
+}
+
 .seventh-container .top-container .content .content-text p img{
-  width: 1rem;
+  width: .8rem;
 }
 
 /* icons */
