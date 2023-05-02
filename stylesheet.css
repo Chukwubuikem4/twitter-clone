@@ -950,7 +950,7 @@ main .second-container .icons-and-btn button:hover{
 
 .sixth-container .top-container .content .header .heading small>a{
   color: #000000c9;
-  margin: 0 1em;
+  margin: 0 .8em;
 }
 
 .sixth-container .top-container .content .header .heading small:nth-of-type(2){
@@ -1387,7 +1387,7 @@ p{
 
 /* eighth-container */
 .eighth-container{
-  padding: .8em 1.5em;
+  padding: .8em 1em;
   border-bottom: 1px solid var(--border-grey);
 }
 
@@ -1399,11 +1399,11 @@ p{
 }
 
 .eighth-container .top-container .user-dp-content{
-  margin-right: 1em;
+  margin-right: .5em;
 }
 
 .eighth-container .top-container .user-dp-content .user-dp{
-  width: 55px;
+  width: 50px;
 }
 
 .eighth-container .top-container .user-dp-content .user-dp img{
@@ -1442,7 +1442,7 @@ p{
 }
 
 .eighth-container .top-container .content .header .heading h5 a span img{
-  width: .9rem;
+  width: .8rem;
 }
 
 
@@ -1452,7 +1452,7 @@ p{
 
 .eighth-container .top-container .content .header .heading small>a{
   color: #000000c9;
-  margin: 0 1em;
+  margin: 0 .8em;
 }
 
 .eighth-container .top-container .content .header .heading small:nth-of-type(2){
@@ -1471,6 +1471,10 @@ p{
 
 .eighth-container .top-container .content .header .heading a .ellipsis:hover{
   background: var(--blue-hover-bg);
+}
+
+.eighth-container .top-container .content .content-text p{
+  font-size: .9rem;
 }
 
 .eighth-container .top-container .content .content-text p img{
