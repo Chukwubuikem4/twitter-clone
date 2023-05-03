@@ -2472,6 +2472,7 @@ aside .trend-table ul li:last-of-type:hover{
 
   main .first-container{
     width: 99.5%;
+    padding-bottom: 0;
   }
 
   main .first-container .link-I{
@@ -2481,16 +2482,25 @@ aside .trend-table ul li:last-of-type:hover{
   main .first-container .link-I-sm{
     display: flex;
     align-items: center;
-    padding: .5em 1.5em 2em 1.5em;
+    padding: .5em 1.5em 0em 1.5em;
+  }
+
+  main .first-container .link-II{
+    border-top: 1px solid var(--border-grey);
+    padding: .5em;
+  }
+
+  main .first-container .link-II .container-A a{
+    padding: .5em 0;
+  }
+
+  main .first-container .link-II .container-B a{
+    padding: .5em 0;
   }
 
   main .first-container .user-dp{
     margin-right: 40%;
     transition: all 0.25s;
-  }
-
-  .open, .first-container .user-dp{
-    background: var(--border-grey);
   }
 
   main .first-container .logo a i{
@@ -2512,7 +2522,7 @@ aside .trend-table ul li:last-of-type:hover{
   }
 
   main .third-container{
-    padding: 8.5em 0 0 0;
+    padding: 6.8em 0 .3em 0;
   }
 
   .tweet-icon{
@@ -2547,6 +2557,32 @@ aside .trend-table ul li:last-of-type:hover{
   }
 
   
+}
+
+@media(max-width: 358px){
+  .fourth-container .top-container .content .header .heading small:nth-of-type(2){
+    display: none;
+  }
+
+  .fifth-container .top-container .content .header .heading small:nth-of-type(2){
+    display: none;
+  }
+
+  .sixth-container .top-container .content .header .heading small:nth-of-type(2){
+    display: none;
+  }
+
+  .seventh-container .top-container .content .header .heading small:nth-of-type(2){
+    display: none;
+  }
+
+  .eighth-container .top-container .content .header .heading small:nth-of-type(2){
+    display: none;
+  }
+
+  .nineth-container .top-container .content .header .heading small:nth-of-type(2){
+    display: none;
+  }
 }
 
 
