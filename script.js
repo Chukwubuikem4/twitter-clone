@@ -6,13 +6,3 @@ function navToggle () {
   nav.classList.toggle('hidden')
 }
 btn.addEventListener('click', navToggle)
-
-
-// navigation
-const span = document.getElementById('user-menu')
-const aside = document.getElementById('menu')
-function nToggle (){
-  span.classList.toggle('open')
-  aside.classList.toggle('hidden')
-}
-btn.addEventListener('click', nToggle)
